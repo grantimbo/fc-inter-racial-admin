@@ -9,18 +9,18 @@ export const albumType = defineType({
   fields: [
     defineField({
       name: 'title',
-      title: 'Album Title',
+      title: 'Title',
       type: 'string',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: 'description',
-      title: 'Album Description',
+      title: 'Description',
       type: 'text',
     }),
     defineField({
       name: 'slug',
-      title: 'Slug',
+      title: 'Permalink',
       type: 'slug',
       options: {
         source: 'title',
