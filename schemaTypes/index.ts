@@ -12,3 +12,5 @@ export const schemaTypes = [
   productType
   // ... any other types you have
 ]
+
+// test deployment
