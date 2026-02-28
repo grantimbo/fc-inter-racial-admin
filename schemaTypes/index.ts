@@ -10,7 +10,7 @@ export const schemaTypes = [
   playerType,
   slideType,
   albumType,
+  achievementType,
   productType,
-  achievementType
   // ... any other types you have
 ]
